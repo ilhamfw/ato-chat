@@ -16,7 +16,7 @@ Ato Chat App is a conversation application that leverages the GPT-4 model to tra
 1. Install the required dependencies:
 
 ```bash
-    go mod download
+    go mod init
 ```
 
 
