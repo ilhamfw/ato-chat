@@ -1,6 +1,6 @@
 # Ato Chat App
 
-Ato Chat App is a conversation application that utilizes the GPT-4 model to translate messages between Japanese and English. The application is built using the Go programming language, the Echo framework, and the GPT-4 model.
+Ato Chat App is a conversation application that leverages the GPT-4 model to translate messages between Japanese and English. The application is developed using the Go programming language and utilizes standard HTTP without relying on any specific web framework. The integration with the GPT-4 model enhances the application's ability to provide accurate translations and a seamless conversational experience
 
 ## Installation
 
@@ -25,8 +25,8 @@ Ato Chat App is a conversation application that utilizes the GPT-4 model to tran
 ## Usage
 Run the application:
 
-```bash
 Copy code
+```bash
 go run main.go
 ```
 Open the application in your browser at http://localhost:8080.
