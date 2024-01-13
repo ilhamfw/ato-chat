@@ -65,11 +65,14 @@ Save a conversation in the system.
   ]
 }
 ```
+# A. Screeshoot POST http://localhost:8080/api/conversations
 ![Save Conversation](image/1.%20Save%20Conversation.jpg)
 
 
 ## Translate Message (POST /api/translate)
 Translate a message.
+
+`POST http://localhost:8080/api/translate`
 
 # Request Body
 ```json 
@@ -94,10 +97,15 @@ Translate a message.
   ]
 }
 ```
+# B. Screenshot Translate Japanese-English
+![Translate Message](image/2.%20Translate%20Japanese-English.jpg)
+# C. Screenshot Translate English-Japanese
+![Translate Message](image/3.%20Translate%20English-Japanese.jpg)
+
 
 ## Get All Conversations (GET /api/conversations)
 Retrieve all conversations.
-
+`GET http://localhost:8080/api/conversations`
 # Response Body
 ```json
 [
@@ -114,6 +122,11 @@ Retrieve all conversations.
   // ... other conversations ...
 ]
 ```
+# D. Screenshoot Get All Conversation
+![Get All Conversation](image/4.%20Get%20All%20Conversation.jpg)
+
+# E. Result at Database ato_chat Table conversations using MariaDB at DBeaver
+![Result](image/5.%20Table%20Conversations%20using%20Maria%20Db%20with%20Dbeaver.jpg)
 
 
 
