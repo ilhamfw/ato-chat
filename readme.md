@@ -65,6 +65,7 @@ Save a conversation in the system.
   ]
 }
 ```
+![Save Conversation](image/1.%20Save%20Conversation.jpg.jpg)
 
 
 ## Translate Message (POST /api/translate)
